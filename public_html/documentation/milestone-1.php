@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<titls>Brandon Steider Personal Website</titls>
+		<title>Brandon Steider Personal Website</title>
 	</head>
 	<body>
 			<h2>Purpose</h2>
-		<ul>I want my PWP to show me as a coder. How good I will be, what I bring to the table, and overall act as a type of resume. Beyond that I want to do all kinds of work on it to explore what different possibilites I can have making a website and see how creative I can get with it. I want it to be my first accomplishment in the class.</ul>
+		<p>I want my PWP to show me as a coder. How good I will be, what I bring to the table, and overall act as a type of resume. Beyond that I want to do all kinds of work on it to explore what different possibilites I can have making a website and see how creative I can get with it. I want it to be my first accomplishment in the class.</p>
 			<h2>Audience</h2>
-		<ul>Primarily I want my PWP to be viewed by potential employers or customers. If i start working for someone they should know what kind of work I am capable of creating. That goes as well for customers if I do freelance work. They should be able to see that I know what i'm doing and can make all kinds of different things. </ul>
+		<p>Primarily I want my PWP to be viewed by potential employers or customers. If i start working for someone they should know what kind of work I am capable of creating. That goes as well for customers if I do freelance work. They should be able to see that I know what i'm doing and can make all kinds of different things. </p>
 			<h2>Goal</h2>
-		<ul>My goal is to aquire a full time job.</ul>
+		<p>My goal is to aquire a full time job.</p>
 			<h1>persona</h1>
 		<ul>Name: David Hampton</ul>
 		<ul>Age: 29</ul>

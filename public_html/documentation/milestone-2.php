@@ -12,6 +12,7 @@
 		<p>My goal is to aquire a full time job.</p>
 		<h1>persona</h1>
 		<ul>Name: David Hampton</ul>
+		<ul>name: david humpty</ul>
 		<!-- test -->
 		<ul>Age: 29</ul>
 		<ul>Owner of coding company</ul>

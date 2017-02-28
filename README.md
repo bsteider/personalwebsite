@@ -23,3 +23,6 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 ### Edits &amp; Suggestions
 - `<meta charset="utf-8">` tag is missing
 - `<ui>` tag is incorrect. Use `<p>` tags or `<ul>` and `<li>` tags instead.
+
+## Milestone 2&beta; Feedback
+Detailed notes on our meeting have been sent via Slack. You have some work to do, so stay focused and you should be able to finish PWP in a matter of hours. Many of the issues are simply CSS related, and also get your real content on the page. Get your contact form built by Thursday AM if you want to follow along with the class demo on getting the PHP mailer working. Your Milestone 2b passes at Tier II.

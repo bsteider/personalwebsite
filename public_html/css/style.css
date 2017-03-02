@@ -13,14 +13,23 @@ body {
 	-o-background-size: cover;
 	padding-bottom: 70px;
 	font-family: sans-serif;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
-	background: #1e5799; /* Old browsers */
-	background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
+
+/*body {*/
+	/*background-image: url("sky-night-space-trees.jpeg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: right top;*/
+	/*background-attachment: fixed;*/
+
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
 .navbar {
 	min-height: 9%;
 	font-size: 3rem;
@@ -34,10 +43,10 @@ body {
 
 .boxed {
 	border: 2px solid black;
-	background-color: gray;
+	background-color: white;
 	padding-top: 50px;
 	padding-right: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 420px;
 	padding-left: 80px;
 
 	margin-top: 50px;
@@ -49,7 +58,69 @@ body {
 	font-family: 'Pridi', serif;
 	font-size: 2rem;
 }
-.sr-only {
-	text-align: right;
+
+.img {
+	max-width: 100%;
 }
 
+label {
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+	display:block;
+	margin:0 auto;
+	width:576px;
+}
+
+/* Centre the form within the page */
+form {
+	margin:0 auto;
+	width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+}
+
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+#submit {
+	width:127px;
+	height:38px;
+	text-indent:-9999px;
+	border:black;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+#submit:hover {
+	opacity:.9;
+}

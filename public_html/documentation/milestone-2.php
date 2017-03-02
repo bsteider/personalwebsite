@@ -10,6 +10,6 @@
 		<ui>Ways to contact me</ui>
 		<h2>Purpose of content</h2>
 		<p>I decided to choose four main points for my content. I want to keep it short and sweet, but look good and have the important information. I want my work on there to show potential employers who what sort of stuff I can create. The purpose of the "who I am" is to give them a general idea of what kind of person I am. The skills tell people what i'm able to create, what languages I can code, and basically cover the work I do. The last section will state what my plans are, like if I want to persue a career in this field, start my own company, etc.</p>
-		<img src="../../img/milestone2.svg" alt="wireframe">
+		<img src="../img/milestone2.svg" alt="wireframe">
 	</body>
 </html>

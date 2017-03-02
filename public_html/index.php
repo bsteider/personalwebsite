@@ -23,7 +23,7 @@
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -33,10 +33,10 @@
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="collapse navbar-collapse navbar-right" id="bs-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Link</a></li>
+						<li class="active"><a href="#">Dank Memes <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">More Memes</a></li>
 
 							</ul>
 						</li>
@@ -46,15 +46,37 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 		<div>
-		<img src="/img/brandonPicture.jpg" alt="picture of brando" class="img-rounded">
+		<img src="img/brandonPicture.jpg" alt="picture of brando" class="img-circle center-block">
 		</div>
+<!--		<div>-->
+<!--			<img src="img/sky-night-space-trees.jpeg" alt="background picture" class-->
+<!--		</div>-->
 		<div class="boxed">
+			<h1>About Me</h1>
 			Taxidermy godard four loko tumblr cliche. Offal readymade af humblebrag, vaporware cardigan chartreuse VHS post-ironic succulents four dollar toast tumeric. Pug pour-over kitsch literally, subway tile edison bulb direct trade woke vegan authentic cray banh mi tacos. Meggings iPhone bitters gluten-free, typewriter schlitz meditation tumeric sriracha 90's mustache authentic. Blue bottle franzen disrupt hoodie hammock locavore. Franzen wayfarers ugh meh, banjo banh mi asymmetrical before they sold out small batch street art synth biodiesel lyft farm-to-table kitsch. Before they sold out listicle skateboard vexillologist kitsch, tumblr blue bottle vape. Mumblecore whatever artisan narwhal, man braid four loko XOXO tattooed twee vexillologist meggings seitan jean shorts messenger bag VHS. Kale chips sriracha waistcoat cornhole. Paleo squid whatever aesthetic. Tumeric brooklyn man braid, street art fashion axe tote bag freegan. Subway tile bespoke copper mug, polaroid occupy marfa 8-bit kale chips butcher vegan drinking vinegar shoreditch cronut. Chartreuse actually YOLO, vaporware literally roof party meggings cred artisan snackwave skateboard asymmetrical slow-carb. Green juice post-ironic humblebrag, unicorn vice pok pok mustache mixtape fanny pack kogi vape readymade gastropub iceland sartorial. Vexillologist cardigan enamel pin squid, food truck keytar pop-up viral tote bag yuccie 3 wolf moon narwhal air plant readymade. Bicycle rights lo-fi wayfarers shoreditch pour-over kogi plaid taxidermy, shabby chic mumblecore. Tattooed taxidermy raclette plaid. Etsy bushwick man braid next level, prism master cleanse coloring book. Man bun butcher microdosing vice, semiotics listicle messenger bag seitan polaroid pop-up small batch. Locavore blog disrupt chillwave, organic literally deep v vaporware. Pabst raw denim yuccie, fixie live-edge mustache drinking vinegar raclette glossier.
 		</div>
 
-		<header>
+		<form>
 
-		</header>
+			<label>Name</label>
+			<input name="name" placeholder="Type Here">
+
+			<label>Email</label>
+			<input name="email" type="email" placeholder="Type Here">
+
+			<label>Message</label>
+			<textarea name="message" placeholder="Type Here"></textarea>
+
+			<input id="submit" name="submit" type="submit" value="Submit">
+
+		</form>
+
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
 
 	</body>
 </html>

@@ -17,6 +17,9 @@
 		<!--<link rel="stylesheet" href="" type="text/css"/>-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+		<script src="js/form-validate.js"> </script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -56,7 +59,7 @@
 		</div>
 		</div>
 <div class="container">
-	<form class="form-horizontal well" action="email.php">
+	<form id="contact-form"class="form-horizontal well" action="php/mailer.php">
 		<div class="form-group">
 			<label for="name">Name</label>
 			<div class="input-group">
@@ -97,6 +100,7 @@
 		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 	</form>
 </div>
+		<!--credit: rochelle lewis form-->
 
 		<!--empty area for form error/success output-->
 		<div class="row">

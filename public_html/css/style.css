@@ -69,12 +69,7 @@ label {
 	letter-spacing:2px;
 }
 
-/* Centre the page */
-.body {
-	display:block;
-	margin:0 auto;
-	width:576px;
-}
+
 
 /* Centre the form within the page */
 form {

@@ -67,7 +67,7 @@
 			<label>Message</label>
 			<textarea name="message" placeholder="Type Here"></textarea>
 
-			<input id="submit" name="submit" type="button" value="Submit">
+			<button id="submit" name="submit">submit</button>
 
 		</form>
 

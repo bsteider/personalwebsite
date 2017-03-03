@@ -39,8 +39,6 @@
 						<li><a href="#">More Memes</a></li>
 
 							</ul>
-						</li>
-					</ul>
 
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -51,11 +49,12 @@
 <!--		<div>-->
 <!--			<img src="img/sky-night-space-trees.jpeg" alt="background picture" class-->
 <!--		</div>-->
+		<div class="container">
 		<div class="boxed">
 			<h1>About Me</h1>
 			Taxidermy godard four loko tumblr cliche. Offal readymade af humblebrag, vaporware cardigan chartreuse VHS post-ironic succulents four dollar toast tumeric. Pug pour-over kitsch literally, subway tile edison bulb direct trade woke vegan authentic cray banh mi tacos. Meggings iPhone bitters gluten-free, typewriter schlitz meditation tumeric sriracha 90's mustache authentic. Blue bottle franzen disrupt hoodie hammock locavore. Franzen wayfarers ugh meh, banjo banh mi asymmetrical before they sold out small batch street art synth biodiesel lyft farm-to-table kitsch. Before they sold out listicle skateboard vexillologist kitsch, tumblr blue bottle vape. Mumblecore whatever artisan narwhal, man braid four loko XOXO tattooed twee vexillologist meggings seitan jean shorts messenger bag VHS. Kale chips sriracha waistcoat cornhole. Paleo squid whatever aesthetic. Tumeric brooklyn man braid, street art fashion axe tote bag freegan. Subway tile bespoke copper mug, polaroid occupy marfa 8-bit kale chips butcher vegan drinking vinegar shoreditch cronut. Chartreuse actually YOLO, vaporware literally roof party meggings cred artisan snackwave skateboard asymmetrical slow-carb. Green juice post-ironic humblebrag, unicorn vice pok pok mustache mixtape fanny pack kogi vape readymade gastropub iceland sartorial. Vexillologist cardigan enamel pin squid, food truck keytar pop-up viral tote bag yuccie 3 wolf moon narwhal air plant readymade. Bicycle rights lo-fi wayfarers shoreditch pour-over kogi plaid taxidermy, shabby chic mumblecore. Tattooed taxidermy raclette plaid. Etsy bushwick man braid next level, prism master cleanse coloring book. Man bun butcher microdosing vice, semiotics listicle messenger bag seitan polaroid pop-up small batch. Locavore blog disrupt chillwave, organic literally deep v vaporware. Pabst raw denim yuccie, fixie live-edge mustache drinking vinegar raclette glossier.
 		</div>
-
+		</div>
 		<form>
 
 			<label>Name</label>

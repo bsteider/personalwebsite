@@ -43,15 +43,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 .boxed {
 	border: 2px solid black;
 	background-color: antiquewhite;
-	padding-top: 50px;
-	padding-right: 50px;
-	padding-bottom: 200px;
-	padding-left: 80px;
+	/*padding-top: 50px;*/
+	/*padding-right: 50px;*/
+	/*padding-bottom: 200px;*/
+	/*padding-left: 80px;*/
 
-	margin-top: 50px;
-	margin-right: 100px;
-	margin-bottom: 50px;
-	margin-left: 100px;
+	/*margin-top: 50px;*/
+	/*margin-right: 100px;*/
+	/*margin-bottom: 50px;*/
+	/*margin-left: 100px;*/
 	text-align: center;
 
 	font-family: 'Pridi', serif;

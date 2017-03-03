@@ -58,7 +58,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	font-size: 2rem;
 }
 
+.img-circle {
+	box-shadow: 5px 10px 10px black;
+	width: 100%;
+}
 
+.img-container {
+	width:30%;
+}
+@media (max-width: 400px) {
+
+.img-container {
+	width:100%;
+	}
+}
 
 label {
 	display:block;

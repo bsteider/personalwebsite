@@ -43,34 +43,60 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
+		<div class="container">
 		<div class="img-container center-block">
 			<img src="img/brandonPicture.jpg" alt="picture of brando" class="img-circle center-block">
 		</div>
+		</div>
 
-<!--		<div>-->
-<!--			<img src="img/sky-night-space-trees.jpeg" alt="background picture" class-->
-<!--		</div>-->
 		<div class="container">
 		<div class="boxed">
 			<h1>About Me</h1>
 			Taxidermy godard four loko tumblr cliche. Offal readymade af humblebrag, vaporware cardigan chartreuse VHS post-ironic succulents four dollar toast tumeric. Pug pour-over kitsch literally, subway tile edison bulb direct trade woke vegan authentic cray banh mi tacos. Meggings iPhone bitters gluten-free, typewriter schlitz meditation tumeric sriracha 90's mustache authentic. Blue bottle franzen disrupt hoodie hammock locavore. Franzen wayfarers ugh meh, banjo banh mi asymmetrical before they sold out small batch street art synth biodiesel lyft farm-to-table kitsch. Before they sold out listicle skateboard vexillologist kitsch, tumblr blue bottle vape. Mumblecore whatever artisan narwhal, man braid four loko XOXO tattooed twee vexillologist meggings seitan jean shorts messenger bag VHS. Kale chips sriracha waistcoat cornhole. Paleo squid whatever aesthetic. Tumeric brooklyn man braid, street art fashion axe tote bag freegan. Subway tile bespoke copper mug, polaroid occupy marfa 8-bit kale chips butcher vegan drinking vinegar shoreditch cronut. Chartreuse actually YOLO, vaporware literally roof party meggings cred artisan snackwave skateboard asymmetrical slow-carb. Green juice post-ironic humblebrag, unicorn vice pok pok mustache mixtape fanny pack kogi vape readymade gastropub iceland sartorial. Vexillologist cardigan enamel pin squid, food truck keytar pop-up viral tote bag yuccie 3 wolf moon narwhal air plant readymade. Bicycle rights lo-fi wayfarers shoreditch pour-over kogi plaid taxidermy, shabby chic mumblecore. Tattooed taxidermy raclette plaid. Etsy bushwick man braid next level, prism master cleanse coloring book. Man bun butcher microdosing vice, semiotics listicle messenger bag seitan polaroid pop-up small batch. Locavore blog disrupt chillwave, organic literally deep v vaporware. Pabst raw denim yuccie, fixie live-edge mustache drinking vinegar raclette glossier.
 		</div>
 		</div>
-
-		<form>
-
-			<label>Name</label>
-			<input name="name" placeholder="Type Here">
-
-			<label>Email</label>
-			<input name="email" type="email" placeholder="Type Here">
-
-			<label>Message</label>
-			<textarea name="message" placeholder="Type Here"></textarea>
-
-			<button id="submit" name="submit">submit</button>
-
-		</form>
+<div class="container">
+	<form class="form-horizontal well" action="email.php">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="email">Email address</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-pencil" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-comment" aria-hidden="true"></i>
+				</div>
+				<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
+			</div>
+		</div>
+		<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+	</form>
+</div>
 
 		<!--empty area for form error/success output-->
 		<div class="row">

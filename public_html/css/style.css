@@ -25,7 +25,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 .navbar {
 	min-height: 10%;
-	font-size: 10px;
+	font-size: 1rem;
+	width: 100%;
+	padding-bottom: 20px;
 }
 
 .navbar-inverse{
@@ -37,6 +39,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	font-size: 6rem;
 	font-family: 'Anton', sans-serif;
 	margin: 10px 10px 0px 3px;
+}
+
+@media (max-width:400px) {
+	.navbar-brand {
+		position: absolute;
+		font-size: 2rem;
+		font-family: 'Anton', sans-serif;
+		margin: 0px 0px 0px 0px;
+	}
 }
 
 
@@ -56,8 +67,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 	font-family: 'Pridi', serif;
 	font-size: 2rem;
+	margin:0 auto;
+	width:90%;
+
+
 }
 
+#first-div {
+	background: url("../img/desk.jpg") no-repeat center center;
+	min-height: 500px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .img-circle {
 	box-shadow: 5px 10px 10px black;
 	width: 95%;
@@ -79,6 +102,9 @@ label {
 	letter-spacing:2px;
 }
 
+.spacer {
+	padding-bottom:30px;
+}
 
 
 /* Centre the form within the page */
@@ -87,50 +113,10 @@ form {
 	width:90%;
 }
 
-/* Style the text boxes */
-input, textarea {
-	width: 100%;
-	height:27px;
-	background:#efefef;
-	border:1px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:0.9em;
-	color:#3a3a3a;
-}
 
-textarea {
-	height:213px;
-}
-
-input, textarea {
-	width:90%;
-	height:27px;
-	background:#efefef;
-	border:1px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:0.9em;
-	color:#3a3a3a;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-}
-
-#submit {
-	width:127px;
-	height:38px;
-	text-indent:-1px;
-	border:black;
-	margin-top:20px;
-	cursor:pointer;
-	background-color: darkorange;
-	font-family: 'Anton', sans-serif;
-
-
-}
-
-#submit:hover {
-	opacity:.9;
+.recap-style {
+	margin-right: 50%;
+	transform:scale(0.80);
+	transform-origin:0 0;
 }
 

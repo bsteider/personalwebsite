@@ -47,7 +47,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="navbar-collapse navbar-right">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Dank Memes <span class="sr-only">(current)</span></a></li>
+						<li><a href="#boxed"> About Me </a></li>
 						<li><a href="#contact-form"> Contact Me </a></li>
 
 					</ul>
@@ -68,6 +68,7 @@
 			<div class="spacer"></div>
 
 			<div class="row">
+				<div id="boxed">
 				<div class="boxed col-xs-offset-1">
 					<h1>About Me</h1>
 					Taxidermy godard four loko tumblr cliche. Offal readymade af humblebrag, vaporware cardigan chartreuse
@@ -89,6 +90,7 @@
 					coloring book. Man bun butcher microdosing vice, semiotics listicle messenger bag seitan polaroid pop-up
 					small batch. Locavore blog disrupt chillwave, organic literally deep v vaporware. Pabst raw denim yuccie,
 					fixie live-edge mustache drinking vinegar raclette glossier.
+				</div>
 				</div>
 			</div>
 		</div>

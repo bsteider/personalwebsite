@@ -41,7 +41,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Brandon Steider Personal Website</a>
+					<a class="navbar-brand" href="#">Brandon Steider</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -96,7 +96,7 @@
 		</div>
 		<div class="spacer"></div>
 		<div class="container">
-			<form id="contact-form" class="form-horizontal well col-xs-10 col-xs-offset-1" action="php/mailer.php">
+			<form id="contact-form" class="form-horizontal action="php/mailer.php">
 				<div class="form-group">
 					<label for="name">Name</label>
 					<div class="input-group">
@@ -138,15 +138,16 @@
 				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 				<div class="g-recaptcha recap-style" data-sitekey="6LeocRcUAAAAACjPtiUO7ldndZ30JXGzQsi515Pi"></div>
 			</form>
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</div>
 		<!--credit: rochelle lewis form-->
 
 		<!--empty area for form error/success output-->
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="output-area"></div>
-			</div>
-		</div>
+
 
 	</body>
 </html>

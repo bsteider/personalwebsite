@@ -26,3 +26,10 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 ## Milestone 2&beta; Feedback
 Detailed notes on our meeting have been sent via Slack. You have some work to do, so stay focused and you should be able to finish PWP in a matter of hours. Many of the issues are simply CSS related, and also get your real content on the page. Get your contact form built by Thursday AM if you want to follow along with the class demo on getting the PHP mailer working. Your Milestone 2b passes at Tier II.
+
+## Milestone 3 / Final PWP Feedback
+This is an OK start - I see you've done a LOT of hard work, so keep practicing. Unfortunately your layout isn't responsive on mobile, and there is an issue with your contact form. Keep working with Bootstrap layouts - the built-in grid system is really the easiest way to create a responsive layout without having to write any custom CSS for it. Talk with me if you would like some help debugging your contact form. There is something wrong in there that I can't see client-side. It may have to do with your jQuery version. Use jQuery version 3.0.0 because that is the most recent version that is Bootstrap v3.x supports. 
+
+Suggestion: Change your &lt;title&gt; tag info to something other that "interview template"
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). 
